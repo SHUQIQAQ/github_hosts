@@ -1,0 +1,15 @@
+{
+  "version": "1.2.0",
+  "updated_at": "2026-09-20T00:00:00Z",
+  "doh_providers": [
+    {"name": "aliyun", "url_template": "https://dns.alidns.com/resolve?name={domain}&type=A", "accept": "application/dns-json"},
+    {"name": "dnspod", "url_template": "https://doh.pub/dns-query?name={domain}&type=A", "accept": "application/dns-json"},
+    {"name": "cloudflare", "url_template": "https://cloudflare-dns.com/dns-query?name={domain}&type=A", "accept": "application/dns-json"}
+  ],
+  "github520_mirrors": [
+    "https://gcore.jsdelivr.net/gh/521xueweihan/GitHub520@main/hosts",
+    "https://fastly.jsdelivr.net/gh/521xueweihan/GitHub520@main/hosts",
+    "https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/hosts",
+    "https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts"
+  ]
+}
